@@ -1,0 +1,16 @@
+IMPORT ORG.JUNIT.JUPITER.API.TEST;
+
+PUBLIC CLASS LOWERCASETOUPPERCASE {
+
+    PUBLIC INT aa = 4;
+    PRIVATE DOUBLE bb = 5;
+
+    @TEST
+    PUBLIC VOID PUBLICMETHOD() {
+        FOR (INT i = 0; i < 10; i++) {
+            SYSTEM.OUT.PRINTLN("cc");
+        }
+    }
+
+    PROTECTED VOID dd() {}
+}

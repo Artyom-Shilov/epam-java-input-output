@@ -1,0 +1,231 @@
+#directorytree
+epam-training-java-inputoutput
+|   pom.xml
+|---.idea
+|   |   .gitignore
+|   |   compiler.xml
+|   |   jarRepositories.xml
+|   |   misc.xml
+|   |   runConfigurations.xml
+|   |   uiDesigner.xml
+|   |   workspace.xml
+|   |---test
+|---src
+|   |---main
+|   |   |---java
+|   |   |   |---com
+|   |   |       |---epam
+|   |   |           |---training
+|   |   |               |---artsiom_shylau
+|   |   |                   |---inputoutput
+|   |   |                       |   df
+|   |   |                       |---maintask
+|   |   |                       |   |---entity
+|   |   |                       |   |       Directory.java
+|   |   |                       |   |---enums
+|   |   |                       |   |       DirectoryTreeProcessingEnum.java
+|   |   |                       |   |---launch
+|   |   |                       |   |       Runner.java
+|   |   |                       |   |---util
+|   |   |                       |           DirectoryTreeFileProcessor.java
+|   |   |                       |           DirectoryTreePrinter.java
+|   |   |                       |---optionaltasks
+|   |   |                               FileOperator.java
+|   |   |                               Runner.java
+|   |   |---resources
+|   |       |   log4j.properties
+|   |       |---log
+|   |       |       application.log
+|   |       |---maintaskresources
+|   |       |---optionaltasksresources
+|   |           |   FileOperator.java
+|   |           |   numbers.txt
+|   |           |---test
+|   |                   FileOperator.java
+|   |---test
+|       |---java
+|       |   |---com
+|       |       |---epam
+|       |           |---training
+|       |               |---artsiom_shylau
+|       |                   |---inputoutput
+|       |                       |---maintask
+|       |                       |       DirectoryTreeFileProcessorTest.java
+|       |                       |       DirectoryTreePrinterTest.java
+|       |                       |---optionaltasks
+|       |                               BaseFileOperatorTest.java
+|       |                               CreateFileFilledWithRandomNumbersTest.java
+|       |                               WriteProgramTextWithLinesInReverseOrderInAnotherFileTest.java
+|       |                               WriteProgramTextWithReplacedLowerCaseCharsByUpperCaseIfWordLengthMoreThanTwoInAnotherFileTest.java
+|       |                               WriteProgramTextWithReplacedPublicMethodsAndFieldsByPrivateInAnotherFileTest.java
+|       |                               WriteSortedLinesOfFileFilledWithNumbersInAscendingOrderInAnotherFileTest.java
+|       |---resources
+|           |---maintasktestresources
+|           |   |   empty.txt
+|           |   |   file-with-valid-header-empty-content.txt
+|           |   |   file-without-proper-header.txt
+|           |   |---testdirectorymixedcontent
+|           |   |   |   created.txt
+|           |   |   |   expected.txt
+|           |   |   |---root
+|           |   |       |   element1
+|           |   |       |   element3
+|           |   |       |---element2
+|           |   |       |---element4
+|           |   |---testdirectoryonlydirectories
+|           |   |   |   created.txt
+|           |   |   |   expected.txt
+|           |   |   |---root
+|           |   |       |---dir1
+|           |   |       |---dir2
+|           |   |       |---dir3
+|           |   |---testdirectoryonlyfiles
+|           |   |   |   created.txt
+|           |   |   |   expected.txt
+|           |   |   |---root
+|           |   |           file1.txt
+|           |   |           file2.txt
+|           |   |           file3.txt
+|           |   |---testdirectoryrealistyccase
+|           |       |   created.txt
+|           |       |   expected.txt
+|           |       |---root
+|           |           |   file1.txt
+|           |           |   file2.txt
+|           |           |---dir1
+|           |           |---dir2
+|           |           |   |   file21.txt
+|           |           |   |---dir21
+|           |           |   |       file211.txt
+|           |           |   |---dir22
+|           |           |           file221.txt
+|           |           |           file222.txt
+|           |           |---dir3
+|           |                   file31.txt
+|           |                   file32.txt
+|           |                   file33.txt
+|           |---optionaltasktestresources
+|               |---replacepublictest
+|               |       created-file.txt
+|               |       expected-file.txt
+|               |       original-file.txt
+|               |---replcelowercasebyuppercase
+|               |       created-file.txt
+|               |       expected-file.txt
+|               |       original-file.txt
+|               |---reverseprogramtexttest
+|               |       created-file.txt
+|               |       expected-file.txt
+|               |       original-file.txt
+|               |---sortlinestest
+|                       created-file-integer-numbers.txt
+|                       file-fiiled-with-text.txt
+|                       file-floating-point-numbers.txt
+|                       sorted-file-integer-numbers
+|                       unsorted-file-integer-numbers.txt
+|---target
+    |---classes
+    |   |   log4j.properties
+    |   |---com
+    |   |   |---epam
+    |   |       |---training
+    |   |           |---artsiom_shylau
+    |   |               |---inputoutput
+    |   |                   |---maintask
+    |   |                   |   |---entity
+    |   |                   |   |       Directory.class
+    |   |                   |   |---enums
+    |   |                   |   |       DirectoryTreeProcessingEnum.class
+    |   |                   |   |---launch
+    |   |                   |   |       Runner.class
+    |   |                   |   |---util
+    |   |                   |           DirectoryTreeFileProcessor.class
+    |   |                   |           DirectoryTreePrinter.class
+    |   |                   |---optionaltasks
+    |   |                           FileOperator.class
+    |   |                           Runner.class
+    |   |---log
+    |   |       application.log
+    |   |---maintaskresources
+    |   |       tree.txt
+    |   |---optionaltasksresources
+    |       |   FileOperator.java
+    |       |   numbers.txt
+    |       |---test
+    |               FileOperator.java
+    |---generated-sources
+    |   |---annotations
+    |---generated-test-sources
+    |   |---test-annotations
+    |---test-classes
+        |---com
+        |   |---epam
+        |       |---training
+        |           |---artsiom_shylau
+        |               |---inputoutput
+        |                   |---maintask
+        |                   |       DirectoryTreeFileProcessorTest.class
+        |                   |       DirectoryTreePrinterTest.class
+        |                   |---optionaltasks
+        |                           BaseFileOperatorTest.class
+        |                           CreateFileFilledWithRandomNumbersTest.class
+        |                           WriteProgramTextWithLinesInReverseOrderInAnotherFileTest.class
+        |                           WriteProgramTextWithReplacedLowerCaseCharsByUpperCaseIfWordLengthMoreThanTwoInAnotherFileTest.class
+        |                           WriteProgramTextWithReplacedPublicMethodsAndFieldsByPrivateInAnotherFileTest.class
+        |                           WriteSortedLinesOfFileFilledWithNumbersInAscendingOrderInAnotherFileTest.class
+        |---maintasktestresources
+        |   |   empty.txt
+        |   |   file-with-valid-header-empty-content.txt
+        |   |   file-without-proper-header.txt
+        |   |---testdirectorymixedcontent
+        |   |   |   created.txt
+        |   |   |   expected.txt
+        |   |   |---root
+        |   |           element1
+        |   |           element3
+        |   |---testdirectoryonlydirectories
+        |   |       created.txt
+        |   |       expected.txt
+        |   |---testdirectoryonlyfiles
+        |   |   |   created.txt
+        |   |   |   expected.txt
+        |   |   |---root
+        |   |           file1.txt
+        |   |           file2.txt
+        |   |           file3.txt
+        |   |---testdirectoryrealistyccase
+        |       |   created.txt
+        |       |   expected.txt
+        |       |---root
+        |           |   file1.txt
+        |           |   file2.txt
+        |           |---dir2
+        |           |   |   file21.txt
+        |           |   |---dir21
+        |           |   |       file211.txt
+        |           |   |---dir22
+        |           |           file221.txt
+        |           |           file222.txt
+        |           |---dir3
+        |                   file31.txt
+        |                   file32.txt
+        |                   file33.txt
+        |---optionaltasktestresources
+            |---replacepublictest
+            |       created-file.txt
+            |       expected-file.txt
+            |       original-file.txt
+            |---replcelowercasebyuppercase
+            |       created-file.txt
+            |       expected-file.txt
+            |       original-file.txt
+            |---reverseprogramtexttest
+            |       created-file.txt
+            |       expected-file.txt
+            |       original-file.txt
+            |---sortlinestest
+                    created-file-integer-numbers.txt
+                    file-fiiled-with-text.txt
+                    file-floating-point-numbers.txt
+                    sorted-file-integer-numbers
+                    unsorted-file-integer-numbers.txt

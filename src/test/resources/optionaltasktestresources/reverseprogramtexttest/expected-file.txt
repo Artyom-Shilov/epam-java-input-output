@@ -1,0 +1,15 @@
+{ tseTdesreveR ssalc cilbup
+
+    ;4 = dleiFcilbup tni cilbup
+    ;5 = dleiFetavirp elbuod etavirp
+
+    tseT@
+    { )(dohteMcilbup diov cilbup
+        { )++i ;01 < i ;0 = i tni( rof
+            ;)"tset"(nltnirp.tuo.metsyS
+        }
+    }
+
+    }{ )(dohteMdetcetorp diov detcetorp
+
+}

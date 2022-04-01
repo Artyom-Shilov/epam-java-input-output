@@ -1,0 +1,112 @@
+;litu.sksatlanoitpo.tuptuotupni.ualyhs_moistra.gniniart.mape.moc egakcap
+
+;*.oi.avaj tropmi
+;seliF.elif.oin.avaj tropmi
+;htaP.elif.oin.avaj tropmi
+;noitpOnepOdradnatS.elif.oin.avaj tropmi
+;*.litu.avaj tropmi
+;srotcelloC.maerts.litu.avaj tropmi
+
+{ rotarepOeliF ssalc cilbup
+
+    { noitpecxEOI sworht )htaPelif gnirtS(htaPeliFyBseirotceriDdnAeliFetaerc eliF etavirp
+        ;)htaPelif(eliF wen = eliFtuptuo eliF
+        ;)(sridkm.)(eliFtneraPteg.eliFtuptuo
+        ;)(eliFweNetaerc.eliFtuptuo
+        ;eliFtuptuo nruter
+    }
+
+    )htaPeliFtuptuo gnirtS ,senil >gnirtS<tsiL(dnEehTnIeniLweNtuohtiWeliFnIsgnirtSfOtsiLetirw diov etavirp
+            { noitpecxEOI sworht
+        ;)htaPeliFtuptuo(htaPeliFyBseirotceriDdnAeliFetaerc = eliFtuptuo eliF
+        ;))(gnirtSot.)(htaPot.eliFtuptuo(retirWeliF wen = retirw retirWeliF
+        { )++i ;)(ezis.senil < i ;0 = i tni( rof
+            { )1 - )(ezis.senil =! i( fi
+                ;))(rotarapeSenil.metsyS(dneppa.))i(teg.senil(dneppa.retirw
+            { esle }
+                ;))i(teg.senil(dneppa.retirw
+            }
+        }
+        ;)(esolc.retirw
+    }
+
+    )eulaVxam tni ,eulaVnim tni ,srebmuNfOtnuoma tni ,htaPelif gnirtS(srebmuNregetnImodnaRhtiWdelliFeliFetaerc diov cilbup
+            { noitpecxEOI sworht
+        ;)htaPelif(htaPeliFyBseirotceriDdnAeliFetaerc = eliFtuptuo eliF
+        ;)"" ,)(htaPot.eliFtuptuo(gnirtSetirw.seliF
+        ;)(modnaR wen = modnar modnaR
+        { )++i ;srebmuNfOtnuoma < i ;0 = i tni( rof
+            ,)eulaVnim + )eulaVnim - 1 + eulaVxam(tnItxen.modnar(fOeulav.gnirtS ,)(htaPot.eliFtuptuo(gnirtSetirw.seliF
+                    ;)DNEPPA.noitpOnepOdradnatS
+            { )1 - srebmuNfOtnuoma < i( fi
+                ;)DNEPPA.noitpOnepOdradnatS ,"n\" ,)(htaPot.eliFtuptuo(gnirtSetirw.seliF
+            }
+        }
+    }
+
+    (eliFrehtonAnIredrOgnidnecsAnIsrebmuNregetnIhtiWdelliFeliFfOseniLdetroSetirw diov cilbup
+            { noitpecxEOI sworht )htaPeliFtuptuo gnirtS ,htaPeliFtupni gnirtS
+        ))htaPeliFtupni(fo.htaP(seniLllAdaer.seliF = senil >gnirtS<tsiL
+                )(maerts.
+                )fOeulav::regetnI(pam.
+                )(detros.
+                )fOeulav::gnirtS(pam.
+                ;))(tsiLot.srotcelloC(tcelloc.
+        ;)htaPeliFtuptuo ,senil(dnEehTnIeniLweNtuohtiWeliFnIsgnirtSfOtsiLetirw
+    }
+
+    (eliFrehtonAnIetavirPyBsdleiFdnAsdohteMcilbuPdecalpeRhtiWtxeTmargorPetirw diov cilbup
+            { noitpecxEOI sworht )htaPeliFtuptuo gnirtS ,htaPeliFtupni gnirtS
+        ;))htaPeliFtupni(fo.htaP(seniLllAdaer.seliF = senil >gnirtS<tsiL
+        { )++i ;)(ezis.senil < i ;0 = i tni( rof
+            ;)i(teg.senil = enil gnirtS
+            )"ecafretni"(sniatnoc.enil! && )"ssalc"(sniatnoc.enil! && )" cilbup"(sniatnoc.enil( fi
+                    { ))"mune"(sniatnoc.enil! &&
+                ;))" etavirp" ," cilbup"(ecalper.enil ,i(tes.senil
+            }
+            ;)htaPeliFtuptuo ,senil(dnEehTnIeniLweNtuohtiWeliFnIsgnirtSfOtsiLetirw
+        }
+    }
+
+    (eliFrehtonAnIredrOesreveRnIseniLhtiWtxeTmargorPetirw diov cilbup
+            { noitpecxEOI sworht )htaPeliFtuptuo gnirtS ,htaPeliFtupni gnirtS
+        ;))htaPeliFtupni(fo.htaP(seniLllAdaer.seliF = senil >gnirtS<tsiL
+        ;)(redliuBgnirtS wen = eniLweNelohWroFredliub redliuBgnirtS
+        ;)(redliuBgnirtS wen = eniLfOtraPesreveRroFredliub redliuBgnirtS
+        { )++i ;)(ezis.senil < i ;0 = i tni( rof
+            ;)i(teg.senil = enil gnirtS
+            ;)enil(dneppa.eniLweNelohWroFredliub
+            ;0 = xednIeniLnIrahCecapStoNtsrif tni
+            { )++j ;)(htgnel.enil < j ;0 = j tni( rof
+                { )' ' =! )j(tArahc.enil( fi
+                    ;j = xednIeniLnIrahCecapStoNtsrif
+                    ;kaerb
+                }
+            }
+            ;))xednIeniLnIrahCecapStoNtsrif(gnirtsbus.enil(dneppa.eniLfOtraPesreveRroFredliub
+            ,)(htgnel.eniLweNelohWroFredliub ,xednIeniLnIrahCecapStoNtsrif(ecalper.eniLweNelohWroFredliub
+                    ;))(gnirtSot.)(esrever.eniLfOtraPesreveRroFredliub
+            ;)0(htgneLtes.eniLfOtraPesreveRroFredliub
+            ;))(gnirtSot.eniLweNelohWroFredliub ,i(tes.senil
+            ;)0(htgneLtes.eniLweNelohWroFredliub
+        }
+        ;)htaPeliFtuptuo ,senil(dnEehTnIeniLweNtuohtiWeliFnIsgnirtSfOtsiLetirw
+    }
+
+    eliFrehtonAnIowTnahTeroMhtgneLdroWfIesaCreppUyBsrahCesaCrewoLdecalpeRhtiWtxeTmargorPetirw diov cilbup
+            { noitpecxEOI sworht )htaPeliFtuptuo gnirtS ,htaPeliFtupni gnirtS(
+        ;))htaPeliFtupni(fo.htaP(gnirtSdaer.seliF = tnetnoc gnirtS
+        ))(htgnel.1o - )(htgnel.2o >- )2o ,1o( )>gnirtS<rotarapmoC(((><teSeerT wen = sdroWdnuof >gnirtS<teS
+                ;))oTerapmoc::gnirtS(gnirapmoCneht.
+        { )))"]9-0Z-Az-a^["((tilps.tnetnoc : drow gnirtS( rof
+            { )2 > )(htgnel.drow( fi
+                ;)drow(dda.sdroWdnuof
+            }
+        }
+        { )sdroWdnuof : drow gnirtS( rof
+            ;))TOOR.elacoL(esaCreppUot.drow ,drow(llAecalper.tnetnoc = tnetnoc
+        }
+        ;))(setyBteg.tnetnoc ,)(htaPot.)htaPeliFtuptuo(htaPeliFyBseirotceriDdnAeliFetaerc(etirw.seliF
+    }
+}
+

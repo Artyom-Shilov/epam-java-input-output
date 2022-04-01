@@ -1,0 +1,18 @@
+package com.epam.training.artsiom_shylau.inputoutput.optionaltasks;
+
+import org.junit.jupiter.api.Test;
+
+public class CreateFileFilledWithRandomNumbersTest {
+
+    private int publicField = 4;
+    private double privateField = 5;
+
+    @Test
+    private void publicMethod(){
+
+    }
+
+    protected void protectedMethod(){
+
+    }
+}

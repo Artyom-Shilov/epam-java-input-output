@@ -1,0 +1,16 @@
+#directorytree
+root
+|   file1.txt
+|   file2.txt
+|---dir1
+|---dir2
+|   |   file21.txt
+|   |---dir21
+|   |       file211.txt
+|   |---dir22
+|           file221.txt
+|           file222.txt
+|---dir3
+        file31.txt
+        file32.txt
+        file33.txt

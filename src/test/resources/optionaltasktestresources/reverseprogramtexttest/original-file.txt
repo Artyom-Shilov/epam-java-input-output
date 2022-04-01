@@ -1,0 +1,15 @@
+public class ReversedTest {
+
+    public int publicField = 4;
+    private double privateField = 5;
+
+    @Test
+    public void publicMethod() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("test");
+        }
+    }
+
+    protected void protectedMethod() {}
+
+}
